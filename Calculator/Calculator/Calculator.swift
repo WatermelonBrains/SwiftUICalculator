@@ -24,4 +24,14 @@ class CalculatorOperations{
     func percent(a: Double) -> Double{
         return a / 100
     }
+    func pi() -> Float{
+        return 3.14159265359
+    }
+    func factorial(a: Int) -> Int{
+        var x = a
+        for i in 1...x{
+            x = x * i
+        }
+        return x
+    }
 }
