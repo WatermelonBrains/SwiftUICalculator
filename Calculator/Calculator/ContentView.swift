@@ -22,10 +22,17 @@ class ContentView: UIView, ConfigurableView {
  		label.font = label.font.withSize(64)
 		return label
 	}()
-	
+    
+    let colorChange: UILabel = {
+        let label = UILabel()
+        label.backgroundColor = .white
+        label.textColor = .black
+        return label
+    }()
+    
 	override init(frame: CGRect) {
 		super.init(frame: frame)
-		backgroundColor = .black
+        backgroundColor = colorChange.backgroundColor
 		setupView()
 	}
 	
@@ -35,6 +42,7 @@ class ContentView: UIView, ConfigurableView {
 	
 	func buildHierarchy() {
 		addSubview(displayLabel)
+        
 	}
 	
 	func addConstraints() {
