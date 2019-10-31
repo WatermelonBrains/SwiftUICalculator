@@ -15,6 +15,7 @@
 		15F66A18236B1041007DEC90 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F66A17236B1041007DEC90 /* CalculatorTests.swift */; };
 		15F66A20236B1073007DEC90 /* Calculadora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F66A1F236B1073007DEC90 /* Calculadora.swift */; };
 		15F66A22236B1162007DEC90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F66A21236B1162007DEC90 /* ContentView.swift */; };
+		15F66A24236B1319007DEC90 /* ConfigurableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F66A23236B1319007DEC90 /* ConfigurableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		15F66A19236B1041007DEC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15F66A1F236B1073007DEC90 /* Calculadora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculadora.swift; sourceTree = "<group>"; };
 		15F66A21236B1162007DEC90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		15F66A23236B1319007DEC90 /* ConfigurableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				15F66A0B236B0D72007DEC90 /* Info.plist */,
 				15F66A1F236B1073007DEC90 /* Calculadora.swift */,
 				15F66A21236B1162007DEC90 /* ContentView.swift */,
+				15F66A23236B1319007DEC90 /* ConfigurableView.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				15F66A02236B0D6D007DEC90 /* ViewController.swift in Sources */,
 				15F66A22236B1162007DEC90 /* ContentView.swift in Sources */,
 				15F66A20236B1073007DEC90 /* Calculadora.swift in Sources */,
+				15F66A24236B1319007DEC90 /* ConfigurableView.swift in Sources */,
 				15F669FE236B0D6D007DEC90 /* AppDelegate.swift in Sources */,
 				15F66A00236B0D6D007DEC90 /* SceneDelegate.swift in Sources */,
 			);
