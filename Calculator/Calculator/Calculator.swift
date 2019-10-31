@@ -9,22 +9,22 @@
 import Foundation
 
 class CalculatorOperations{
-    func plus(a: Int, b: Int) -> Int{
+    func plus(a: Double, b: Double) -> Double{
         return a + b
     }
-    func minus(a: Int, b: Int) -> Int{
+    func minus(a: Double, b: Double) -> Double{
         return a - b
     }
-    func multiply(a: Int, b: Int) -> Int{
+    func multiply(a: Double, b: Double) -> Double{
         return a * b
     }
-    func divide(a: Int, b: Int) -> Int{
+    func divide(a: Double, b: Double) -> Double{
         return a / b
     }
     func percent(a: Double) -> Double{
         return a / 100
     }
-    func pi() -> Float{
+    func pi() -> Double{
         return 3.14159265359
     }
     func factorial(a: Int) -> Int{
@@ -33,5 +33,8 @@ class CalculatorOperations{
             x = x * i
         }
         return x
+    }
+    func reverse(a: Double) -> Double{
+        return a * -1
     }
 }
